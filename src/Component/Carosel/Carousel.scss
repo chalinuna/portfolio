@@ -1,0 +1,25 @@
+.Slider-area {
+  width: 50vw;
+  height: 40vh;
+  background-color: blueviolet;
+}
+
+.content-area {
+  margin-top: 23vh;
+  div {
+    margin-top: 0.2em;
+  }
+}
+
+.link-list {
+  :first-child,
+  :nth-child(2) {
+    margin-right: 1em;
+  }
+
+  span {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
